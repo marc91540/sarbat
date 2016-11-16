@@ -358,7 +358,8 @@ p{
 }
 .home4bloc{
     width: 60%;
-    margin-left: 255px; 
+    margin-left: 255px;
+    
 }
 .position{
     top: 6px;
@@ -453,107 +454,310 @@ p{
 /*--------------------------------------------*/
 /*---------------skills-----------------------*/
 /*--------------------------------------------*/
-@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400);
 
-.arc1 {
-   
-    background: #00a0db;
-    -webkit-transform-origin: -31% 61%;
-    margin-left: -30px;
-    margin-top: 20px;
-    -webkit-transform: translate(-54px,50px);
-}
-.arc2 {
-
-    background: #00a0db;
-    -webkit-transform: skew(45deg,0deg);
-    margin-left: -180px;
-    margin-top: -90px;
-    position: absolute;
-    -webkit-transition: all .5s linear;
+#home6{
+    background-color: black;
+    height: 700px;
 }
 
-.arc-container:hover .arc2 {
-    width: 160px;
-    height: 240px;
-    margin-left: -50px;
-    -webkit-transform: skew(-20deg,0deg);
-
+.pourcent{
+    margin-top: 10px;
 }
 
-.arc-wrapper {
-    width: 150px;
-    height: 150px;
-    border-radius:150px;
-    background: #424242;
-    overflow:hidden;
-    left: 50px;
-    top: 50px;
-    position: absolute;
-}
-.arc-hider {
-    width: 150px;
-    height: 150px;
-    border-radius: 150px;
-    border: 50px solid #e9e9e9;
-    position:absolute;
-    z-index:5;
-    box-shadow:inset 0px 0px 20px rgba(0,0,0,0.7);
-}
-
-.arc-inset  {
-    font-family: "Josefin Sans";
-    font-weight: 100;
-    position: absolute;
-    font-size: 413px;
-    margin-top: -64px;
-    z-index: 5;
-    left: 30px;
-    line-height: 327px;
-    height: 280px;
-    -webkit-mask-image: -webkit-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,0.2));
-}
-.arc-lowerInset {
-    font-family: "Josefin Sans";
-    font-weight: 100;
-    position: absolute;
-    font-size: 413px;
-    margin-top: -64px;
-    z-index: 5;
-    left: 30px;
-    line-height: 327px;
-    height: 280px;
+.photoshop{
+    font-family: 'Montserrat';
+    font-size:17px;
+    font-weight: bold;
     color: white;
-    -webkit-mask-image: -webkit-linear-gradient(top, rgba(0,0,0,0.2), rgba(0,0,0,1));
+    display: inline-block;
+    padding-right: 5px;
 }
-.arc-overlay {
-    width: 100px;
-    height: 100px;
-    background-image: linear-gradient(bottom, rgb(217,217,217) 10%, rgb(245,245,245) 90%, rgb(253,253,253) 100%);
-    background-image: -o-linear-gradient(bottom, rgb(217,217,217) 10%, rgb(245,245,245) 90%, rgb(253,253,253) 100%);
-    background-image: -moz-linear-gradient(bottom, rgb(217,217,217) 10%, rgb(245,245,245) 90%, rgb(253,253,253) 100%);
-    background-image: -webkit-linear-gradient(bottom, rgb(217,217,217) 10%, rgb(245,245,245) 90%, rgb(253,253,253) 100%);
+.pourcentimg{
+    width: 45%;
+}
+.pourcentimg2{
+    width: 23%;
+}
 
-    padding-left: 32px;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    line-height: 100px;
-    font-family: sans-serif;
-    font-weight: 400;
-    text-shadow: 0 1px 0 #fff;
-    font-size: 22px;
-    border-radius: 100px;
-    position: absolute;
-    z-index: 5;
-    top: 75px;
-    left: 75px;
-    box-shadow:0px 0px 20px rgba(0,0,0,0.7);
+.prix{
+    font-family: 'Montserrat';
+    font-size:40px;
+    color:white;
+    display: inline-block;
 }
-.arc-container {
+.pourcentage{
+    font-size:17px;
+    color:#666666;
+    font-family: 'open sans condensed';
     position: relative;
-    background: #e9e9e9;
-    height: 250px;
-    width: 250px;
+    top: -20px;
 }
+
+.all{
+    display: inline-block;
+        margin-right: 25px;
+}
+.all2{
+    display: inline-block;
+}
+
+
+/*-------------swiper-------------------------------*/
+
+.swiper-container {
+        width: 100%;
+        height: 300px;
+        margin: 20px auto;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .append-buttons {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .append-buttons a {
+        display: inline-block;
+        border: 1px solid #007aff;
+        color: #007aff;
+        text-decoration: none;
+        padding: 4px 10px;
+        border-radius: 4px;
+        margin: 0 10px;
+        font-size: 13px;
+    }
+
+.rond{
+    width: 100%;
+}
+.line6{
+    background: linear-gradient(to right,#ffcc00  , #ff6600);
+    width: 78px;
+    height: 2px;
+    margin-top: 10px;
+}
+
+.textswiper{
+    margin-top: 40px;
+}
+.sarbat{
+    font-family: 'Montserrat';
+    font-size:20px;
+    color: white;
+    text-align: initial;
+    margin-left: 30px;
+}
+
+.text{
+    font-size: 15px;
+    color: #666666;
+    font-family: 'open sans condensed';
+    text-align: initial;
+    margin: 10px 0px 10px 30px
+}
+
+.autor{
+    font-size: 15px;
+    color: white;
+    font-family: 'open sans condensed';
+    font-style: italic;
+    left: -85px;
+    position: relative;
+    
+}
+.city{
+    font-size: 15px;
+    color: #666666;
+    font-family: 'open sans condensed';
+}
+
+.swiper-container swiper-container-horizontal{
+    margin-top: 80px;
+}
+
+/*--------------------------------------------*/
+/*---------------lasted post------------------*/
+/*--------------------------------------------*/
+
+#home7{
+    background-color: black;
+    height: 850px;
+}
+.postdate{
+    display: inline-block;
+    margin-left: 115px;
+}
+.postdate2{
+    display: inline-block;
+
+}
+
+.numberpost{
+    font-family: 'Montserrat';
+    font-size:45px;
+    color:white;
+    display: inline-block;
+}
+.month{
+    font-size: 15px;
+    color: #666666;
+    font-family: 'open sans condensed';
+    display: inline-block;
+    position: relative;
+    top: -20px;
+}
+.line7{
+    background: linear-gradient(to right,#ffcc00  , #ff6600);
+    width: 64px;
+    height: 2px;
+    margin-top: 10px;
+}
+
+.textpost{
+    width: 67%;
+    font-family: 'Montserrat';
+    font-size: 17px;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+.readpost{
+    font-family: 'Montserrat';
+    font-size: 12px;
+    color: white;
+}
+
+/*-----------------sociaux---------------------------*/
+.reseausociaux{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.face{
+    border: 1px solid;
+    border-color: #666666;
+   padding: 10px 140px 10px 140px;
+}
+#face2{
+    padding-top: 14px;
+}
+#face3{
+    padding-top: 11px;
+}
+
+.face:hover{
+     background: linear-gradient(to right,#ffcc00  , #ff6600);
+}
+
+/*-----------------last bloc---------------------------*/
+.lastbloc1{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.lasttitle1{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    color: white; 
+}
+.lasttext1{
+    font-size: 8px;
+    color: #666666;
+    font-family: 'open sans condensed';
+    display: inline-block;
+}
+.lastbloc2{
+    display: inline-block;
+    margin-right: 80px;
+}
+.lastbloc3{
+    display: inline-block;
+    position:relative;
+    top:-20px
+}
+.lasttext2{
+    font-size: 8px;
+    color: #666666;
+    font-family: 'open sans condensed';
+}
+
+/*-----------------formuaire---------------------------*/
+
+.formulairebloc{
+    display: inline-block;
+    position: relative;
+    left: 371px;
+    top: -169px;
+}
+
+.formulaire{
+    background-color: black;
+    margin-bottom: 10px;
+    border-top: black;
+    border-left: black;
+    border-right: black;
+    border-bottom-color: #666666;
+    outline: none;
+    color: white;
+    font-family: 'open sans condensed';
+    width: 395px;
+}
+input::-webkit-input-placeholder {
+    font-size: 12px;
+    color: #666666;
+    font-family: 'open sans condensed';
+}
+
+.buton{
+    padding:10px;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    color: white;
+    background: linear-gradient(to right,#ffcc00  , #ff6600);
+    position: relative;
+    top: -100px;
+    left: 236px;
+    
+}
+/*--------------------------------------------*/
+/*---------------flooter------------------*/
+/*--------------------------------------------*/
+#flooter{
+    background: linear-gradient(to right,#ffcc00  , #ff6600);
+    height: 70px;
+}
+
+.flootertext{
+    color:white;
+    text-align: center;
+    font-family: 'open sans condensed';
+    font-size: 14px;
+    padding-top: 26px;
+    
+}
+
+
+
+
+
+
+
+
+
+
 
 
